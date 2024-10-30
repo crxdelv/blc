@@ -142,7 +142,7 @@ button {
 }
 
 .feature-desc {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 #section-services {
