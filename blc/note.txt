@@ -35,3 +35,8 @@ Get In Touch
 * Left side: Name, Email, Message, Type of service, ToS
 Contact Us
 Brief Info of About Us
+
+---
+
+2 Services only
+Add header button
