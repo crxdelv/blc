@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DM Serif";
+  src: url("fonts/dm-serif.ttf") format("truetype");
+}
+
+* {
+  font-family: "Inter";
+}
+
+button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#navbar {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  backdrop-filter: blur(5px);
+  transition: background-color 0.5s;
+}
+
+#navbar.moved {
+  background-color: #FFF1DB;
+}
+
+#navbar-title {
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+#navbar-title > a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s;
+}
+
+.moved #navbar-title > a {
+  color: black;
+}
+
+#navbar-menu-btn {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#navbar-menu-btn:hover {
+  background-color: rgba(0,0,0,0.03);
+}
+
+.navbar-menu-line {
+  border-top: 2px solid white;
+  width: 20px;
+  transition: transform 0.5s, border-top-color 0.5s;
+}
+
+.moved .navbar-menu-line {
+  border-top-color: black;
+}
+
+.expand .navbar-menu-line:first-child {
+  transform: rotate(-45deg) translateY(4px) translateX(-3px);
+}
+
+.expand .navbar-menu-line:last-child {
+  transform: rotate(45deg) translateY(-4px) translateX(-3px);
+}
+
+#header-title,
+#header-title * {
+  font-family: "DM Serif";
+  letter-spacing: 2px;
+}
+
+#header-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  position: absolute;
+  filter: brightness(0.6);
+  z-index: 0;
+}
+
+#header-container {
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+#header-title-span {
+  color: #4CC9FE;
+}
+
+.feature-icon {
+  border: 1.5px solid #536493;
+  border-radius: 50%;
+  color: #536493;
+}
+
+.feature-title {
+  color: #536493;
+}
+
+#section-services {
+  background-color: rgba(0,0,0,0.05);
+}
+
+#services-title {
+  font-family: "DM Serif";
+}
+
+.service-item {
+  position: relative;
+  border: 1.5px solid white;
+}
+
+.service-item:hover .service-img {
+  filter: brightness(0.5);
+  transform: scale(1.02);
+}
+
+.service-item > *:not(.service-img) {
+  z-index: 1;
+  position: relative;
+}
+
+.service-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(0.3);
+  transition: filter 0.5s, transform 0.5s;
+}
+
+.service-item-title {
+  font-family: "DM Serif";
+}
+
+.service-item-desc {
+  opacity: 0.8;
+}
+
+.service-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.service-btn:hover {
+  background-color: white;
+  color: black;
+}
