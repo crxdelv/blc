@@ -13,9 +13,17 @@
   <nav class="d-flex align-items-center justify-content-between p-3 px-4 shadow" id="navbar">
     <h5 id="navbar-title" class="m-0"><a href="index.html">BLC</a></h5>
     <!-- FOR LARGER SCREEN -->
-    <div id="navbar-menu-desktop"></div>
+    <div id="navbar-menu-desktop" class="d-none d-md-flex gap-4 pe-5">
+      <a href="#" class="navbar-menu-item">Home</a>
+      <span class="navbar-menu-div">|</span>
+      <a href="#" class="navbar-menu-item">About</a>
+      <span class="navbar-menu-div">|</span>
+      <a href="#" class="navbar-menu-item">Services</a>
+      <span class="navbar-menu-div">|</span>
+      <a href="#" class="navbar-menu-item">Contacts</a>
+    </div>
     <!-- FOR SMALLER SCREEN -->
-    <div id="navbar-menu-mobile">
+    <div id="navbar-menu-mobile" class="d-block d-md-none">
       <div id="navbar-menu-btn" class="p-3 rounded d-flex flex-column align-items-center justify-content-center gap-2" onclick="toggleMenu()">
         <div class="navbar-menu-line"></div>
         <div class="navbar-menu-line"></div>
@@ -26,7 +34,7 @@
   <section>
     <img src="res/header.jpg" alt="" id="header-img">
     <div id="header-container" class="px-4">
-      <h1 class="m-0 display-3 fw-bold text-light" id="header-title">Reach New <span id="header-title-span">Heights</span>, Level Up Your Social Media.</h1>
+      <h1 class="m-0 display-4 fw-bold text-light" id="header-title">Reach New <span id="header-title-span">Heights</span>, Level Up Your Social Media.</h1>
     </div>
   </section>
   <!-- FEATURES -->

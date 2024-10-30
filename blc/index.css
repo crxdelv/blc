@@ -8,6 +8,13 @@
   src: url("fonts/dm-serif.ttf") format("truetype");
 }
 
+@media screen and (min-width: 600px) {
+  #header-title {
+    padding: 20px;
+  }
+  
+}
+
 * {
   font-family: "Inter";
 }
@@ -29,7 +36,11 @@ button {
 }
 
 #navbar.moved {
-  background-color: #FFF1DB;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#navbar:hover {
+  background-color: black;
 }
 
 #navbar-title {
@@ -41,10 +52,6 @@ button {
   text-decoration: none;
   color: white;
   transition: color 0.5s;
-}
-
-.moved #navbar-title > a {
-  color: black;
 }
 
 #navbar-menu-btn {
@@ -74,6 +81,26 @@ button {
   transform: rotate(45deg) translateY(-4px) translateX(-3px);
 }
 
+.navbar-menu-item {
+  color: white;
+  font-family: "Inter";
+  text-decoration: none;
+  text-transform: uppercase; 
+  transition: color 0.2s;
+}
+
+.navbar-menu-item:hover {
+  color:#4CC9FE;
+}
+
+.navbar-menu-div {
+  color: rgba(255,255,255,0.5);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 #header-title,
 #header-title * {
   font-family: "DM Serif";
@@ -82,7 +109,7 @@ button {
 
 #header-img {
   width: 100%;
-  height: 450px;
+  height: calc(400px + 20vh);
   object-fit: cover;
   position: absolute;
   filter: brightness(0.6);
@@ -91,7 +118,7 @@ button {
 
 #header-container {
   width: 100%;
-  height: 500px;
+  height: calc(430px + 20vh);
   align-items: center;
   justify-content: center;
   display: flex;
