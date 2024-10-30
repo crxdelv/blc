@@ -1,14 +1,37 @@
-[ Overview ]
 Navbar
-Header + Send Us a Message Button
-Form
-About: Who are us
-Features: Why Us
-Services
-Brief Pricing
-Contact Form
-* Left side: Name, Email, Message, Type of service, ToS
+
+[ Homepage ]
+Header
+* Send Us a Message Button -> Contact
+About: Who are we (Brief)
+Features: What can we offer (Brief)
+Book an Appointment -> Contacts
+Services (Brief)
+Pricing (Brief)
 
 [ Services ]
-Services
-Get In Touch  
+List of Services
+
+[ *Certain Service* ]
+Header
+How to achieve a successful (service)
+Features: What can we offer (specific service)
+Why Choose Us
+Pricing
+Talk to Us -> Contacts
+
+[ About ]
+What Makes us special
+What can we offer (company)
+Company History
+
+[ Contacts ]
+Header Title: Book a Consultation
+Form + Office Info: Email, Number, Address
+* Left side: Name, Email, Message, Type of service, ToS
+
+[ Footer ]
+Get In Touch
+* Left side: Name, Email, Message, Type of service, ToS
+Contact Us
+Brief Info of About Us
