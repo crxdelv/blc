@@ -1,0 +1,14 @@
+[ Overview ]
+Navbar
+Header + Send Us a Message Button
+Form
+About: Who are us
+Features: Why Us
+Services
+Brief Pricing
+Contact Form
+* Left side: Name, Email, Message, Type of service, ToS
+
+[ Services ]
+Services
+Get In Touch  
