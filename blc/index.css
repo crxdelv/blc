@@ -138,6 +138,11 @@ button {
 
 .feature-title {
   color: #536493;
+  font-size: 20px;
+}
+
+.feature-desc {
+  font-size: 14px;
 }
 
 #section-services {
